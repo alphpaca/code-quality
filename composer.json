@@ -1,7 +1,7 @@
 {
     "name": "alphpaca/code-quality",
     "description": "Standardized way of keeping the code quality across the Alphpaca's packages",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
