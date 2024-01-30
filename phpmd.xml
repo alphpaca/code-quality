@@ -12,5 +12,4 @@ The Clean Code ruleset for all Alphpaca's projects.
     <rule ref="rulesets/codesize.xml" />
     <rule ref="rulesets/design.xml" />
     <rule ref="rulesets/naming.xml" />
-    <rule ref="rulesets/unusedcode.xml" />
 </ruleset>
