@@ -14,8 +14,6 @@ use PhpCsFixer\Fixer\Basic\OctalNotationFixer;
 use PhpCsFixer\Fixer\CastNotation\CastSpacesFixer;
 use PhpCsFixer\Fixer\CastNotation\ModernizeTypesCastingFixer;
 use PhpCsFixer\Fixer\ClassNotation\ClassAttributesSeparationFixer;
-use PhpCsFixer\Fixer\ClassNotation\FinalClassFixer;
-use PhpCsFixer\Fixer\ClassNotation\FinalPublicMethodForAbstractClassFixer;
 use PhpCsFixer\Fixer\ClassNotation\NoBlankLinesAfterClassOpeningFixer;
 use PhpCsFixer\Fixer\ClassNotation\OrderedClassElementsFixer;
 use PhpCsFixer\Fixer\ClassNotation\OrderedInterfacesFixer;
@@ -115,8 +113,6 @@ return static function (ECSConfig $ecsConfig): void {
         CastSpacesFixer::class,
         ModernizeTypesCastingFixer::class,
         ClassAttributesSeparationFixer::class,
-        FinalClassFixer::class,
-        FinalPublicMethodForAbstractClassFixer::class,
         NoBlankLinesAfterClassOpeningFixer::class,
         OrderedClassElementsFixer::class,
         OrderedInterfacesFixer::class,
